@@ -35,8 +35,10 @@ while dataInicial <= dataFinal:
     dado_ano_anterior = dataBRA.loc[[dataComparacao]]
 
     datas.append(dado_ano_atual['Data'].values)
+
     mortesTotal.append(
         ((dado_ano_atual['Total de Morte'].values / dado_ano_anterior['Total de Morte'].values) - 1) * 100)
+
     mortesDia.append(
         ((dado_ano_atual['Novas Mortes no Dia'].values / dado_ano_anterior['Novas Mortes no Dia'].values) - 1) * 100)
 
@@ -49,4 +51,4 @@ dataAnual['Total de Mortes'] = mortesTotal
 dataAnual['Novas Mortes no Dia'] = mortesDia
 dataAnual.to_csv("./files/dataAnual.csv",  index=False)
 
-print('Fim das execução')
+print('Fim da execução')
