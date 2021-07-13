@@ -22,6 +22,7 @@
 ### Sobre
 
 <p>Desafio proposto pela empresa 4intelligence para Web Scrapping e Manipulação de Dados da pandemia do Covid-19 utilizando Python</p>
+
 ---
 
 ### Pré requisitos
@@ -36,20 +37,22 @@ Fazer download do dataset do dataset no formato XLSX em:
 
 ## Como executar o projeto
 
-#### Clone o projeto
-No terminal digite:
-```bash
-$ git clone https://github.com/juliadsilva/Desafio.git
-```
+#### Clone o projeto: 
+* No terminal digite:
+	```bash
+	$ git clone https://github.com/juliadsilva/Desafio.git
+	```
 
 #### Transfir dataset
-Tranfirir o aquivo do Dataset para a pasta <b>files</b> do projeto
+* Tranfirir o aquivo do Dataset para a pasta <b>files</b> do projeto
 
 #### Executar
+* No terminal digite:
 ```bash
 $ cd <PASTA DO PROJETO>
 $ python "main.py
 ```
+---
 ##  Autor
 <a href="https://github.com/juliadsilva">Julia Daniele Moreira da Silva </a>
  
