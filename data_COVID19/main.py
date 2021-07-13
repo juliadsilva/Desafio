@@ -1,8 +1,6 @@
 import pandas as pd
 from datetime import datetime
-
-# Data read
-from AnnualVariation import Computation
+from AnnualVariation import AnnualVarition
 
 data = pd.read_excel("./files/owid-covid-data.xlsx")
 
@@ -26,4 +24,9 @@ dataBRA = dataBRA.dropna()
 dataBRA.to_csv("./files/dataBRA.csv", index=False)
 
 # Calculation of annual variation
-Computation()
+AnnualVarition()
+dataAnual = pd.DataFrame()
+dataAnual['Data'] = AnnualVarition.datas
+dataAnual['Total de Mortes'] = AnnualVarition.mortesTotal
+dataAnual['Novas Mortes no Dia'] = AnnualVarition.mortesDia
+dataAnual.to_csv("./files/dataAnual.csv",  index=False)
