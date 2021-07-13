@@ -1,11 +1,11 @@
 <p align="center">
 	
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/juliadsilva/Desafio?">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/juliadsilva/Desafio">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/juliadsilva/Desafio?">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/juliadsilva/Desafio">
   
   <a href="https://github.com/juliadsilva/Deep-Analisys/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/juliadsilva/Desafio?">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/juliadsilva/Desafio">
   </a>
 
 <h1 align="center">
@@ -25,7 +25,8 @@
 ---
 
 ### Pré requisitos
-Para que o projeto funcione normalmente é necessário que seja instalado:
+Para que o projeto funcione normalmente é necessário que seja instalado
+
 * [Python 3.9](https://realpython.com/installing-python/)
 * [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
